@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{41cb142e-080a-4331-b212-73c3299a223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game">
+      <UniqueIdentifier>{e8bfeea6-b768-414e-bf82-181dbb9b43c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Misc">
+      <UniqueIdentifier>{a7e6c03e-e59b-4c27-9436-9e35d5f8b8ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Basic.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FortniteGame_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GameplayAbilities_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\EasyAntiCheatCommon_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\AIModule_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ue.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PC.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Floorloot.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Looting.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BackendStuff.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicles.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SpyGames.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Quests.h">
+      <Filter>File di intestazione\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
